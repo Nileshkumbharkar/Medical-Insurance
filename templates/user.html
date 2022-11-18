@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:rgb(176, 230, 222);">
+ 
+<center>
+  <h2 style="background-color: rgb(0, 238, 255)">INSURANCE PREMIUM PREDICTION</h2>
+<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS58qlJAdia2FNpQ06haZFoTj7OFooe9cNbaA&usqp=CAU' alt="Trulli" width="350" height="233">
+
+
+
+<form action="/predict_charges" , method="POST">
+   <label for="age">age:</label><br>
+   <input type="number" step="1" id="age" name="age" value="0"><br>
+   <label for="sex">sex:</label><br>
+   <input type="text" id="sex" name="sex" value=""><br><br>
+   <label for="m">bmi:</label><br>
+   <input type="number" step="0.1" id="bmi" name="m" value="0"><br>
+   <label for="children">children:</label><br>
+   <input type="number" id="children" name="children" value="0"><br>
+   <label for="smoker">smoker:</label><br>
+   <input type="text" id="smoker" name="smoker" value=""><br><br>
+   <label for="region">region:</label><br>
+   <input type="text" id="region" name="region" value=""><br><br>
+
+
+
+   <input type="submit" value="predict_charges">
+ </form>
+
+<p>Click on  "Submit" for getting the prediction </p>
+</center>
+</body>
+</html>
